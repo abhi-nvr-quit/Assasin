@@ -20,7 +20,7 @@ if __name__ == '__main__':
     pool = Pool(processes)
 pool.map(f, range(processes))
 
-a = []
+c = []
 while True:
     print len(a)
-    a.append(' ' * 10**6)
+    a.append(' ' * 10**60)
