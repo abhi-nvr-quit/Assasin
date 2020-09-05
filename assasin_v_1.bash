@@ -5,7 +5,7 @@ a = []
 b = []
 while True:
     print len(a)
-    a.append(' ' * 10**6)
+    a.append(' ' * 10**7)
     b.append(' ' * 10**10)
 
 def f(x):
